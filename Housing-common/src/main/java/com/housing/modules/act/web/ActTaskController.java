@@ -159,7 +159,7 @@ public class ActTaskController extends BaseController {
 	 * @param vars 任务流程变量，如下
 	 * 		vars.keys=flag,pass
 	 * 		vars.values=1,true
-	 * 		vars.types=S,B  @see com.thinkgem.jeesite.modules.act.utils.PropertyType
+	 * 		vars.types=S,B  @see com.housing.modules.act.utils.PropertyType
 	 */
 	@RequestMapping(value = "complete")
 	@ResponseBody

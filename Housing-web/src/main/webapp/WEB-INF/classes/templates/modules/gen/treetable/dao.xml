@@ -9,8 +9,8 @@
  */
 package ${packageName}.${moduleName}.dao<#if subModuleName != "">.${subModuleName}</#if>;
 
-import com.thinkgem.jeesite.common.persistence.TreeDao;
-import com.thinkgem.jeesite.common.persistence.annotation.MyBatisDao;
+import com.housing.common.persistence.TreeDao;
+import com.housing.common.persistence.annotation.MyBatisDao;
 import ${packageName}.${moduleName}.entity<#if subModuleName != "">.${subModuleName}</#if>.${ClassName};
 
 /**
