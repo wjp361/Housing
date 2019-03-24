@@ -1,4 +1,4 @@
-package com.housing.modules.sys.listener;
+package com.housing.listener;
 
 import javax.servlet.ServletContext;
 

@@ -1,7 +1,7 @@
 /**
  * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
-package com.housing.modules.sys.web;
+package com.housing.web;
 
 import javax.servlet.http.HttpServletRequest;
 

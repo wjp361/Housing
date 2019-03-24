@@ -1,7 +1,7 @@
 /**
  * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
-package com.housing.modules.sys.security;
+package com.housing.security;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;

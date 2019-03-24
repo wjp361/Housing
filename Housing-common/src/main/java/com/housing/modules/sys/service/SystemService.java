@@ -33,7 +33,6 @@ import com.housing.modules.sys.entity.Menu;
 import com.housing.modules.sys.entity.Office;
 import com.housing.modules.sys.entity.Role;
 import com.housing.modules.sys.entity.User;
-import com.housing.modules.sys.security.SystemAuthorizingRealm;
 import com.housing.modules.sys.utils.LogUtils;
 import com.housing.modules.sys.utils.UserUtils;
 
@@ -58,8 +57,6 @@ public class SystemService extends BaseService implements InitializingBean {
 	private MenuDao menuDao;
 	@Autowired
 	private SessionDAO sessionDao;
-	@Autowired
-	private SystemAuthorizingRealm systemRealm;
 	
 	public SessionDAO getSessionDao() {
 		return sessionDao;
