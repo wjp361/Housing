@@ -1,7 +1,7 @@
 /**
  * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
-package com.housing.web;
+package com.housing.modules.sys.web;
 
 import java.util.Map;
 
@@ -27,9 +27,9 @@ import com.housing.common.utils.CookieUtils;
 import com.housing.common.utils.IdGen;
 import com.housing.common.utils.StringUtils;
 import com.housing.common.web.BaseController;
+import com.housing.modules.sys.security.FormAuthenticationFilter;
 import com.housing.modules.sys.security.SystemAuthorizingRealm.Principal;
 import com.housing.modules.sys.utils.UserUtils;
-import com.housing.security.FormAuthenticationFilter;
 
 /**
  * 登录Controller

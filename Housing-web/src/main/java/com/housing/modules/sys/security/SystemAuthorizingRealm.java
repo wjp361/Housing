@@ -1,7 +1,7 @@
 /**
  * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
-package com.housing.security;
+package com.housing.modules.sys.security;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -37,7 +37,7 @@ import com.housing.modules.sys.entity.User;
 import com.housing.modules.sys.service.SystemService;
 import com.housing.modules.sys.utils.LogUtils;
 import com.housing.modules.sys.utils.UserUtils;
-import com.housing.web.LoginController;
+import com.housing.modules.sys.web.LoginController;
 
 /**
  * 系统安全认证实现类

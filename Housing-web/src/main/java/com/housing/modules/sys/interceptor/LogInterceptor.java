@@ -1,7 +1,7 @@
 /**
  * Copyright &copy; 2012-2016 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
  */
-package com.housing.interceptor;
+package com.housing.modules.sys.interceptor;
 
 import java.text.SimpleDateFormat;
 
